@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">PWA 1</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+           
+        </div>
+      </nav> 
+
+      <div class="jumbotron">
+          <h1 class="display-4">Contact Us</h1>
+          <hr>
+          <div class="form-group">
+            <fieldset disabled="">
+              <label class="control-label" for="disabledInput">Disabled input</label>
+              <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+            </fieldset>
+          </div>
+          
+          <div class="form-group">
+            <fieldset>
+              <label class="control-label" for="readOnlyInput">Readonly input</label>
+              <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here..." readonly="">
+            </fieldset>
+          </div>
+          
+          <div class="form-group has-success">
+            <label class="form-control-label" for="inputValid">Valid input</label>
+            <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+            <div class="valid-feedback">Success! You've done it.</div>
+          </div>
+          
+          <div class="form-group has-danger">
+            <label class="form-control-label" for="inputInvalid">Invalid input</label>
+            <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
+            <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
+          </div>
+          
+          <div class="form-group">
+            <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
+            <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
+          </div>
+          
+          <div class="form-group">
+            <label class="col-form-label" for="inputDefault">Default input</label>
+            <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
+          </div>
+          
+          <div class="form-group">
+            <label class="col-form-label col-form-label-sm" for="inputSmall">Small input</label>
+            <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" id="inputSmall">
+          </div>
+          
+          <div class="form-group">
+            <label class="control-label">Input addons</label>
+            <div class="form-group">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                  <span class="input-group-text">.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
