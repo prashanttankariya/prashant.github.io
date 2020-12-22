@@ -2,10 +2,10 @@ const cacheName = 'v1';
 
 const cacheAssets = [
     'index.html',
-    'about.html',
-    '/css/bootstrap.min.css',
-    '/js/bootstrap.min.js',
-    '/js/jquery-3.5.1.min.js'
+    'about.html'
+//     '/css/bootstrap.min.css',
+//     '/js/bootstrap.min.js',
+//     '/js/jquery-3.5.1.min.js'
 ];
 //call install event
 self.addEventListener('install', e => {
